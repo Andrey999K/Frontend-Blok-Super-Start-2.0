@@ -204,3 +204,33 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
+
+.box-feetback>div {
+    box-sizing: content-box;
+    flex-basis: 32%;
+    max-width: 32%;
+}
+
+.feedback {
+    background-color: #F7F7F7;
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 20px 30px;
+}
+
+.feedback::before {
+    content: '';
+    background-image: url(../img/bq.svg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 34px;
+    height: 28px;
+}
+
+.name {
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+}
