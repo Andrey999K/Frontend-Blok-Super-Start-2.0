@@ -147,11 +147,12 @@ h2 {
     grid-template-areas: "a b c""d e f";
     grid-gap: 20px;
     margin-top: 59px;
+    margin-bottom: 147px;
 }
 
 .grid-item {
     background-color: #F7F7F7;
-    padding: 56px 30px 45px;
+    padding: 56px 30px 36px;
 }
 
 .grid-item h3 {
@@ -230,7 +231,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 21px;
-    padding: 20px 30px;
+    padding: 56px 30px;
 }
 
 .feedback::before {
