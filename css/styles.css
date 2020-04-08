@@ -108,6 +108,7 @@ h2 {
 .contact {
     background-color: #F7654A;
     color: #fff;
+    padding: 40px 0;
 }
 
 .box-contact {
@@ -118,12 +119,16 @@ h2 {
 
 .box-contact h3 {
     font-size: 48px;
-    letter-spacing: 0.02em;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .box-contact p {
     font-size: 24px;
-    letter-spacing: 0.02em;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .box-contact button {
