@@ -145,11 +145,18 @@ h2 {
     text-align: center;
     display: grid;
     grid-template-areas: "a b c""d e f";
+    grid-gap: 20px;
+    margin-top: 59px;
 }
 
 .grid-item {
     background-color: #F7F7F7;
-    padding: 20px;
+    padding: 56px 30px 45px;
+}
+
+.grid-item h3 {
+    line-height: 1.5;
+    margin-top: 14px;
 }
 
 .grid-one {
