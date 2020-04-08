@@ -203,13 +203,13 @@ h2 {
 .box-feedback {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.box-feetback>div {
+.box-feedback>div {
     box-sizing: content-box;
-    flex-basis: 32%;
-    max-width: 32%;
+    flex-basis: 31.5%;
+    max-width: 31.5%;
 }
 
 .feedback {
@@ -240,6 +240,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    text-align: center;
 }
 
 .footer-contact>div {
@@ -254,4 +255,29 @@ h2 {
 
 .footer-contact-info {
     list-style: none;
+    padding-left: 0;
+    font-size: 24px;
+    color: #000;
+}
+
+.footer-contact-mail {
+    color: #F7654A;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.footer {
+    background: #404149;
+    padding: 20px 0;
+}
+
+.box-footer a {
+    color: #F7654A;
+    text-decoration: none;
 }
