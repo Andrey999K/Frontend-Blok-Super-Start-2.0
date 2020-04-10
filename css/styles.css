@@ -38,7 +38,7 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 300px 0;
+    padding: 190px 0 320px;
     text-align: center;
 }
 
@@ -46,10 +46,10 @@ h2 {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    max-width: 780px;
+    width: 100%;
     margin: -150px auto 0;
-    padding-top: 70px;
-    padding-bottom: 35px;
+    padding: 57px 130px;
+    box-sizing: border-box;
 }
 
 .stat-item h2 {
