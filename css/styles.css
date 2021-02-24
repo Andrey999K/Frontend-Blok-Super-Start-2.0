@@ -157,6 +157,21 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box-contact button:hover {
+    background-color: #5c5c5c;
+    color: #fff;
+}
+
+.mail-icon {
+    transition: 0.5s;
+}
+
+.box-contact button:hover .mail-icon {
+    fill: #fff;
 }
 
 .grid {
@@ -282,6 +297,10 @@ h2 {
 .footer-contact>div {
     flex-basis: 24%;
     max-width: 24%;
+}
+
+.footer-contact img {
+    min-height: 42px;
 }
 
 .footer-contact h3 {
@@ -544,5 +563,16 @@ h2 {
 
     .box-footer {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .box-party {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-party div {
+        max-width: 150px;
     }
 }
